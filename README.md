@@ -25,10 +25,6 @@ define( 'REMOTE_UPLOADS_BASE', 'https://example.com/wp-content/uploads' );
 
 When `REMOTE_UPLOADS_BASE` is not defined, the mu-plugin is inert and upload URLs are unchanged. Administrators see a dashboard notice until the constant is set.
 
-## Local-only files
-
-`herd-mailer.php` routes mail through Laravel Herd for local development. It is not shipped in this repository.
-
 ## Licence
 
 GPL-2.0-or-later. See [license.txt](license.txt).

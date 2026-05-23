@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2026-05-23
 
-Initial release of shared must-use plugins for WordPress sites.
+Initial release of the remote uploads must-use plugin.
 
 ### Added
 
