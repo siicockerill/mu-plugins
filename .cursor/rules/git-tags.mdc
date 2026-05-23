@@ -1,0 +1,11 @@
+---
+description: mu-plugins — git tags and releases
+alwaysApply: true
+---
+
+# Git tags and releases
+
+- Tag releases with **bare semver** only: `1.0.0`, `1.1.0`.
+- **Never** use a `v` prefix (`v1.0.0` breaks Glamour Boutique deployment tooling).
+- Release commit subject: `Release x.y.z` (never `Release v1.0.0`).
+- When tagging: roll `## [Unreleased]` into `## [x.y.z] - YYYY-MM-DD`, add a fresh `[Unreleased]` section, then tag and push.

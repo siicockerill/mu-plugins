@@ -1,0 +1,14 @@
+---
+description: mu-plugins — commits and CHANGELOG
+alwaysApply: true
+---
+
+# Commits and changelog
+
+Follow [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) in `CHANGELOG.md`.
+
+- On each commit with user-facing changes, add bullets under `## [Unreleased]` in `### Added`, `### Changed`, `### Fixed`, `### Removed`, or `### Security`.
+- Style: **bold** lead-in, then detail; use backticks for function names, hooks, filters, and paths.
+- Include `CHANGELOG.md` in the same commit as the related code.
+- Every shipped version section (`## [x.y.z] - YYYY-MM-DD`) has a one-sentence plain-language summary after the heading, before the first `###` subsection.
+- Do not add a summary under `## [Unreleased]`.
